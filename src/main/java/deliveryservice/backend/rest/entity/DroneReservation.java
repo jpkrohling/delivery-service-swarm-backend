@@ -1,4 +1,4 @@
-package eu.javaland.tracing.backend.rest.entity;
+package deliveryservice.backend.rest.entity;
 
 import java.time.Instant;
 

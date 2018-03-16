@@ -1,4 +1,4 @@
-package eu.javaland.tracing.backend.rest.entity;
+package deliveryservice.backend.rest.entity;
 
 public class DispatchDroneEvent {
     private Drone drone;

@@ -1,10 +1,10 @@
-package eu.javaland.tracing.backend.rest.boundary;
+package deliveryservice.backend.rest.boundary;
 
-import eu.javaland.tracing.backend.rest.control.DispatcherService;
-import eu.javaland.tracing.backend.rest.control.LocatorService;
-import eu.javaland.tracing.backend.rest.control.ReservationService;
-import eu.javaland.tracing.backend.rest.entity.Drone;
-import eu.javaland.tracing.backend.rest.entity.DroneReservation;
+import deliveryservice.backend.rest.control.DispatcherService;
+import deliveryservice.backend.rest.control.LocatorService;
+import deliveryservice.backend.rest.entity.Drone;
+import deliveryservice.backend.rest.entity.DroneReservation;
+import deliveryservice.backend.rest.control.ReservationService;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;

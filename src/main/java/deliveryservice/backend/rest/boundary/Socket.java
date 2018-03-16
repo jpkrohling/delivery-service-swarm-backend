@@ -1,9 +1,9 @@
-package eu.javaland.tracing.backend.rest.boundary;
+package deliveryservice.backend.rest.boundary;
 
-import eu.javaland.tracing.backend.rest.control.RegistrationService;
-import eu.javaland.tracing.backend.rest.entity.DispatchDroneEvent;
-import eu.javaland.tracing.backend.rest.entity.Drone;
-import eu.javaland.tracing.backend.rest.entity.Location;
+import deliveryservice.backend.rest.control.RegistrationService;
+import deliveryservice.backend.rest.entity.DispatchDroneEvent;
+import deliveryservice.backend.rest.entity.Drone;
+import deliveryservice.backend.rest.entity.Location;
 import io.opentracing.*;
 import io.opentracing.propagation.Format;
 import io.opentracing.propagation.TextMapExtractAdapter;

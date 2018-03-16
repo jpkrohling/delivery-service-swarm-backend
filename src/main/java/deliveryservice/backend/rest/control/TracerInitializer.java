@@ -1,4 +1,4 @@
-package eu.javaland.tracing.backend.rest.control;
+package deliveryservice.backend.rest.control;
 
 import com.uber.jaeger.Configuration;
 import com.uber.jaeger.samplers.ConstSampler;
@@ -42,7 +42,7 @@ public class TracerInitializer implements ServletContextListener {
     }
 
     public Tracer getJaegerTracer() {
-        return new Configuration("javaland-swarm-backend")
+        return new Configuration("delivery-service-swarm-backend")
                 .withReporter(
                         new Configuration.ReporterConfiguration()
                                 .withLogSpans(true)

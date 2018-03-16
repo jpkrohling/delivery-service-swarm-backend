@@ -1,7 +1,7 @@
-package eu.javaland.tracing.backend.rest.control;
+package deliveryservice.backend.rest.control;
 
-import eu.javaland.tracing.backend.rest.entity.Drone;
-import eu.javaland.tracing.backend.rest.entity.DroneReservation;
+import deliveryservice.backend.rest.entity.Drone;
+import deliveryservice.backend.rest.entity.DroneReservation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

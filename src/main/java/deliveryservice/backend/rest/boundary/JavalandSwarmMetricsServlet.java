@@ -1,4 +1,4 @@
-package eu.javaland.tracing.backend.rest.boundary;
+package deliveryservice.backend.rest.boundary;
 
 import io.prometheus.client.exporter.MetricsServlet;
 
